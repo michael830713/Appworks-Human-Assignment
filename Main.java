@@ -4,7 +4,7 @@ public class Main {
         Warriors mike = new Warriors();
         mike.attack(2);
         Hunter jason = new Hunter();
-        jason.attack(1);
+        jason.attack();
         Mage jackie = new Mage();
         jackie.attack(1);
     }

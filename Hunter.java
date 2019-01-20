@@ -19,5 +19,12 @@ public class Hunter extends Human {
         }
     }
     public Hunter() {
+        System.out.println("Arrow!!");
+    }
+    public Hunter(int x){
+        System.out.println("Fire Arrow!!");
+    }
+    public Hunter(String x){
+        System.out.println("Ice Arrow!!");
     }
 }

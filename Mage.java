@@ -19,5 +19,12 @@ public class Mage extends Human{
         }
     }
     public Mage() {
+        System.out.println("Arcane Missiles!!");
+    }
+    public Mage(int x){
+        System.out.println("FireBall!!");
+    }
+    public Mage(String x){
+        System.out.println("FrostBall!!");
     }
 }

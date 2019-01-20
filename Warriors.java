@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Warriors extends Human {
 //    String defaultBlade = "Slash";
     public final static int FIRE_BLADE = 1 ;
@@ -21,5 +23,12 @@ public class Warriors extends Human {
     }
 
     public Warriors() {
+        System.out.println(" slash!!");
+    }
+    public Warriors(int x){
+        System.out.println("Fire slash");
+    }
+    public Warriors(String x){
+        System.out.println("Ice slash!!");
     }
 }
